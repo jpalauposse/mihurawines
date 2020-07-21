@@ -1,0 +1,256 @@
+html{
+    font-family: 'Arimo', sans-serif;
+}
+.header a{
+    font-family: 'Arimo', sans-serif;
+    color: #c2a868 !important;
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+} 
+head{
+    font-family: 'Arimo', sans-serif;
+}
+.texto2{
+    /* Tamaño y espaciado */
+    letter-spacing: 0.3rem;
+    font-size: 0.9rem;
+}
+.texto3{
+    /* alineacion especial */
+    padding-left: 24rem;
+    padding-right: 24rem;
+    letter-spacing: 0.3rem;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+.texto{
+    /* padding estandar */
+    padding-left: 24rem;
+    padding-right: 24rem;
+    letter-spacing: 0.3rem;
+    font-size: 0.9rem;
+}
+.texto1{
+    /* padding paginas de vinos */
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+}
+.cuerpo{
+    background-color: #343a40;
+    color: #c2a868;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    padding: 5rem 1rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+.cuerpo h2{
+    padding-bottom: 2rem;
+}
+.cuerpo a{
+    color: #c2a868;
+}
+.fondo{
+    background-image: url(/pictures/doble.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondo-esp{
+    background-image: url(/pictures/vinedoesp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondo-arg{
+    background-image: url(/pictures/vinedoarg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondo-expo{
+    background-image: url(/pictures/mundi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+}
+.fondo-acan{
+    background-image: url(/pictures/acantilado.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+}
+.black{
+    font-family: 'Arimo', sans-serif;
+    background-color:#444a50;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 0.9rem;
+    color: #828181;
+}
+.espaciado{
+    height: 1rem;
+}
+.boton{
+    font-family: 'Arimo', sans-serif;
+    background-color: #c2a868;
+    color:  #343a40;
+    border-color: #c2a868;
+}
+.foo{
+    font-family: 'Arimo', sans-serif;
+    color: #c2a868;
+    background-color: #343a40;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 0.6rem;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;    
+    padding: 1rem 1rem;
+    padding-top: 2rem;
+}
+.pie li{
+    list-style: none;
+}
+.botella{
+    width: 39%;
+    transition: transform .2s;
+}
+.botella:hover {
+    transform: scale(1.2);
+} 
+.idioma a{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    
+}
+.en a{
+    border-left: solid;
+}
+
+/* The Modal (background) */
+.modales {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modales-content {
+   background-color:#343a40;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Small Mobiles Styles */
+@media only screen and (max-width: 306px) {
+ 
+}
+/* Mobile Styles */
+@media only screen and (min-width: 307px) and (max-width: 626px) {
+    .cuerpo{
+        font-size: 1rem;
+        padding: 2rem 1rem;
+    }
+    .cuerpo h2{
+        font-size: 1rem;
+    }
+    .cuerpo a{
+        font-size: 0.8rem;
+    }
+    .cuerpo p a{
+        font-size: 0.8rem;
+    }
+    .texto{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        letter-spacing: 0.3rem;
+        font-size: 0.7rem;
+    }
+    .texto3{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        letter-spacing: 0.3rem;
+        font-size: 0.7rem;
+    }
+    .texto1{
+        padding-left: 0rem;
+        padding-top: 0rem;
+        padding-right: 0rem;
+    }
+    .movil{
+        padding-bottom: 1rem;
+    }
+    .pie{
+        display: block;
+    }
+    .pie ul{
+        padding-left: 0;
+    }
+    .fondo-acan{
+        background-size: 187%;
+    }
+    .modales-content {
+        width: 89%;
+    }
+    .modales {
+        padding-top: 26%;
+    }
+    .escudo-inicio{
+        width: 100%;
+    }
+    .en a{
+        border-left: none;
+    }
+
+}
+/* Tablet Styles */
+@media only screen and (min-width: 627px) and (max-width: 1024px) {
+    .texto{
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+    .texto3{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .texto1{
+        padding-right: 0rem;
+        padding-left: 0rem;
+        padding-top: 0rem;
+    }
+    .botella{
+        width: 50%;
+    }
+    .cuerpo a{
+        font-size: 0.8rem;
+    }
+    .fondo{
+        background-position: 51%;
+    }
+    .fondo-acan{
+        background-size: 100%;
+    }
+    .modales-content {
+        width: 55%;
+    }
+    .en a{
+        border-left: none;
+    }
+}
